@@ -105,7 +105,7 @@ sudo systemctl status jenkins
     - **Inefficiency:** Manual deployment processes are time-consuming and prone to human error.
     - **Risk of Errors:** Manual steps can introduce inconsistencies and mistakes, leading to potential downtime or security vulnerabilities.
     - **Delayed Time:** Manual deployments can slow down the release cycle.
-    - **Solution:** To eliminate/mitigate human error, a deployment stage should be added and configured within Jenkins to automate the deployment stage of the pipeline.
+    - **Solution:** To eliminate/mitigate human error, a deployment stage should be added and configured within Jenkins to automate the deployment/release stage of the pipeline.
     
 
 ### **Benefits of Managed Services**
