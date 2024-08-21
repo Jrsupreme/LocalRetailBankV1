@@ -1,4 +1,4 @@
-# Deploying a Web-Application using the CI/CD Pipeline.
+# Deploying a Retail Bank Web-Application using the CI/CD Pipeline.
 
 **Retail Bank application fully managed by AWS Elastic Beanstalk**
 
