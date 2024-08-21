@@ -117,7 +117,7 @@ sudo systemctl status jenkins
 ### **Challenges for a Retail Bank**
 
 - **Data Security**: Retail banks handle sensitive customer data, so using managed services might raise concerns about data privacy and control.
-    - **Mitigation**: Robust encryption, use VPC for network isolation, and enforce strict access controls.
+    - **Mitigation**: Robust encryption, and enforce strict access controls.
 
 ### **Disadvantages of Elastic Beanstalk**
 
