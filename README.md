@@ -58,28 +58,28 @@ sudo systemctl status jenkins
 
 - This screenshot shows the Checkout stage, where Jenkins pulls the latest code from the GitHub repository. This step ensures that the pipeline is working with the most up-to-date version of the codebase. It retrieves the code from the specified branch and prepares it for the subsequent stages.
 
-![CheckoutStage.png](Deploying%20a%20Web-Application%20using%20the%20CI%20CD%20Pipeli%20eb5171da6e394f16a3a69c27dd329ed5/CheckoutStage.png)
+![CheckoutStage](https://github.com/user-attachments/assets/3c7ea3c0-1977-4688-9dba-0232b53d2a10)
 
 **2. Build Stage**
 
 - In this stage, the code is compiled and any necessary dependencies are installed. The screenshot displays the process of Jenkins executing the build commands as defined in the Jenkinsfile. This step is crucial for verifying that the code compiles without errors and that all required components are in place.
 
-![BuildStage.png](Deploying%20a%20Web-Application%20using%20the%20CI%20CD%20Pipeli%20eb5171da6e394f16a3a69c27dd329ed5/BuildStage.png)
+![BuildStage](https://github.com/user-attachments/assets/c5da4389-0e57-479a-96b6-45e56a26e17b)
 
-![BuildStage2.png](Deploying%20a%20Web-Application%20using%20the%20CI%20CD%20Pipeli%20eb5171da6e394f16a3a69c27dd329ed5/BuildStage2.png)
+![BuildStage2](https://github.com/user-attachments/assets/181395c1-1afe-4791-86de-eeb59754b56a)
 
  **3. Test Stage**
 
 - The Test stage is captured here, where Jenkins runs automated tests on the code. This step ensures that the code behaves as expected and that no bugs or issues have been introduced. The screenshot shows the progress of the tests, with a focus on ensuring that all test cases pass successfully.
 
-![TestStage.png](Deploying%20a%20Web-Application%20using%20the%20CI%20CD%20Pipeli%20eb5171da6e394f16a3a69c27dd329ed5/TestStage.png)
+![TestStage](https://github.com/user-attachments/assets/72c9fb5e-239a-44ce-94a6-1830821513ab)
 
 **4. Successful Build Completion**
 
 - The final screenshot shows the build marked as successful. All stages have been executed without errors, and the application is ready for deployment. This confirmation indicates that the code has passed all necessary checks and is production-ready.
     
-    ![Sucessful build.png](Deploying%20a%20Web-Application%20using%20the%20CI%20CD%20Pipeli%20eb5171da6e394f16a3a69c27dd329ed5/Sucessful_build.png)
-    
+![Sucessful build](https://github.com/user-attachments/assets/863182a2-f243-4396-bde6-dd67e0cc614d)
+
 
 ### **8. Deploying to AWS Elastic Beanstalk**
 
@@ -90,6 +90,12 @@ sudo systemctl status jenkins
 
 - **Issue**: Jenkins failed to validate the GitHub repository.
     - **Resolution**: Realized the personal access token was not properly copied. Generated a new token and reconfigured Jenkins.
+
+
+# Infracstructure Diagram
+
+![WL1(R) drawio](https://github.com/user-attachments/assets/b67b955a-6b04-499b-a0a9-5a01766507ee)
+
 
 # Optimization
 
